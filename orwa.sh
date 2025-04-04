@@ -7,11 +7,11 @@ fetch_undetected_urls() {
   local api_key
 
   if [ $api_key_index -eq 1 ]; then
-    api_key="key-1"
+    api_key="fce5f2ce9b5e4a6d0be26ec84137fa049c4fd0ced894444466de1f6de5118894"
   elif [ $api_key_index -eq 2 ]; then
-    api_key="key-2"
+    api_key="1810528ff5244019425937990c051111d04aeb2ed8be5b1dbcde0f88fe6143ab"
   else
-    api_key="key-3"
+    api_key="68dda874cdb255398740fb1646a5765167a7d8b345b4ff734520a3f92b016f14"
   fi
 
   local URL="https://www.virustotal.com/vtapi/v2/domain/report?apikey=$api_key&domain=$domain"
